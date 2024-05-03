@@ -1,5 +1,11 @@
-altair
-numpy
-pandas
-pydeck
-streamlit
+import numpy
+print("numpy=="numpy.__version__)
+
+import seaborn
+print("seaborn=="seaborn.__version__)
+
+import pandas
+print("pandas=="pandas.__version__)
+
+import streamlit
+print("streamlit=="streamlit.__version__)
