@@ -9,11 +9,15 @@ st.write("I enjoy to discover stremalit possibilities")
 link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/weather2019.csv"
 df_weather = pd.read_csv(link)
 
-https://wilder.streamlit.app/
+your-repository/
+├── .streamlit/
+│   └── config.toml
 ├── pages/
-│   ├── Tableau.py
-│   └── Analyse.py
-└── your_app.py
+│   ├── admin.py
+│   ├── super-admin.py
+│   └── user.py
+├── menu.py
+└── app.py
 
 import streamlit as st
 
