@@ -9,22 +9,6 @@ st.write("I enjoy to discover stremalit possibilities")
 link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/weather2019.csv"
 df_weather = pd.read_csv(link)
 
-your-repository/
-├── .streamlit/
-│   └── config.toml
-├── pages/
-│   ├── admin.py
-│   ├── super-admin.py
-│   └── user.py
-├── menu.py
-└── app.py
-
-import streamlit as st
-
-st.https://wilder.streamlit.app/("my_streamlit_app.py", label="Home", icon="🏠")
-st.https://wilder.streamlit.app/("pages/page_1.py", label="Page 1", icon="1️⃣")
-st.https://wilder.streamlit.app/("pages/page_2.py", label="Page 2", icon="2️⃣", disabled=True)
-st.https://wilder.streamlit.app/("http://www.google.com", label="Google", icon="🌎")
 
 # Here we use "magic commands":
 df_weather
