@@ -9,17 +9,17 @@ st.write("I enjoy to discover stremalit possibilities")
 link = "https://raw.githubusercontent.com/murpi/wilddata/master/quests/weather2019.csv"
 df_weather = pd.read_csv(link)
 
-your-repository/
+wilder.streamlit/
 ├── pages/
-│   ├── page_1.py
-│   └── page_2.py
+│   ├── Tableau.py
+│   └── Analyse.py
 └── your_app.py
 
 import streamlit as st
 
-st.page_link("your_app.py", label="Home", icon="🏠")
-st.page_link("pages/page_1.py", label="Tableau", icon="1️⃣")
-st.page_link("pages/page_2.py", label="Analyse", icon="2️⃣", disabled=True)
+st.wilder.streamlit.("Présentation.py", label="Home", icon="🏠")
+st.wilder.streamlit.("pages/Tableau.py", label="Tableau", icon="1️⃣")
+st.wilder.streamlit.("pages/Analyse.py", label="Analyse", icon="2️⃣", disabled=True)
 
 # Here we use "magic commands":
 df_weather
