@@ -17,9 +17,10 @@ https://wilder.streamlit.app/
 
 import streamlit as st
 
-st.https://wilder.streamlit.app/.("Présentation.py", label="Home", icon="🏠")
-st.https://wilder.streamlit.app/.("pages/Tableau.py", label="Tableau", icon="1️⃣")
-st.https://wilder.streamlit.app/.("pages/Analyse.py", label="Analyse", icon="2️⃣", disabled=True)
+st.https://wilder.streamlit.app/("my_streamlit_app.py", label="Home", icon="🏠")
+st.https://wilder.streamlit.app/("pages/page_1.py", label="Page 1", icon="1️⃣")
+st.https://wilder.streamlit.app/("pages/page_2.py", label="Page 2", icon="2️⃣", disabled=True)
+st.https://wilder.streamlit.app/("http://www.google.com", label="Google", icon="🌎")
 
 # Here we use "magic commands":
 df_weather
